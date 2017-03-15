@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BestDeal</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+
+<script type="text/javascript">
+    function displayAddProduct() {
+    document.getElementById("deleteProductform").style.display="none";
+    document.getElementById("updateProductform").style.display="none";
+    document.getElementById("addProductform").style.display="block";
+
+}
+
+    function displayUpdateProduct() {
+    document.getElementById("deleteProductform").style.display="none";
+    document.getElementById("addProductform").style.display="none";
+    document.getElementById("updateProductform").style.display="block";
+}
+    function displayDeleteProduct() {
+    document.getElementById("addProductform").style.display="none";
+    document.getElementById("updateProductform").style.display="none";
+    document.getElementById("deleteProductform").style.display="block";
+}
+
+
+</script>
+
+<div id="container">
+    <header>
+    	<h1><a href="/">Best<span>Deal</span></a></h1>
+        <h2>Get the best products for the best price</h2>
+    </header>
+    <nav>
+    	<ul>
+        	<li class="start selected"><a href="index.html">Home</a></li>  
+            <li class="end"><a href="http://localhost:8999/A2/dataForm">Data Analytics</a></li>
+            <li class="end"><a href="http://localhost:8999/A2/trending">Trending</a></li>
+			<li class="end"><a href="ViewOrderSales.html">View Order</a></li>
+            <li class="search" style="color:black;"> 
+                Search site
+                    <ul>
+                        <li class="text">
+                            <form method="get" class="searchform" action="#" >
+                                <p>
+                                    <input type="text" size="32" value="" name="s" class="s" />
+                                    
+                                </p>
+                            </form> 
+                        </li>
+                    </ul>
+            </li>
+            <div style="float:right">
+            <li class="username" ><a href="account.html" style="color:black;padding-left:-60px" id="username"><b>Manager</b></a></li>
+            <li class="logout" ><a href="index.html" style="color:black;padding-left:-60px" id="logout"><b>Logout</b></a></li>
+            </div>
+        </ul>
+            
+    </nav>
+    <div id="body" stlye="height: 100%;">
+
+		
+
+		<section id="content" style="min-height:500px">
+           
+            
+<form method="post" action="http://localhost:8999/A2/addproduct" id ="addProductform" style="display:none" >
+<div class="Product">
+<h2>Add Product</h2>
+<select name="category_add">
+  <option value="Smartphone">Smartphone</option>
+  <option value="Tablet">Tablet</option>
+  <option value="Laptop">Laptop</option>
+  <option value="TV">TV><option>
+</select>
+<input class="inputfield"  type="text" name="id_add" placeholder="Product Id"><br>
+<input class="inputfield"  type="text" name="prod_add" placeholder="Product Name"><br>
+<input class="inputfield" type="text" name="price_add" placeholder="Price"><br>
+<input class="inputfield" type="text" name="brand_add" placeholder="Brand"><br>
+<input class="inputfield" type="text" name="image_add" placeholder="Image Url"><br>
+<input type="hidden" name="typeOfOperation" value="Add" /> 
+<input class="submit" type="submit" value="Add">      
+</div>
+</form>
+
+<form  method="post" action="http://localhost:8999/A2/updateproduct" id ="updateProductform" style="display:none" >
+<div class="Product">
+<h2>Update Product</h2>
+<select name="category_up">
+  <option value="Smartphone">Smartphone</option>
+  <option value="Tablet">Tablet</option>
+  <option value="Laptop">Laptop</option>
+  <option value="TV">TV><option>
+</select>
+<input class="inputfield"  type="text" name="id_up" placeholder="Product Id"><br>
+<input class="inputfield"  type="text" name="prod_up" placeholder="Product Name"><br>
+<input class="inputfield" type="text" name="price_up" placeholder="Price"><br>
+<input class="inputfield" type="text" name="brand_up" placeholder="Brand"><br> 
+<input class="inputfield" type="text" name="image_up" placeholder="Image Url"><br>
+<input type="hidden" name="typeOfOperation" value="Update" />
+<input class="submit" type="submit" value="Update">         
+</div>
+</form>
+
+<form method="post" action="http://localhost:8999/A2/deleteproduct" id ="deleteProductform" style="display:none" >
+<div class="Product">
+<h2>Delete Product</h2>
+<input class="inputfield"  type="text" name="prod_del" placeholder="Product id"></br> <input type="hidden" name="typeOfOperation" value="Delete" />
+<input class="submit" type="submit" value="Delete">  
+    </div>
+    </form>
+
+
+        </section>
+        
+        <aside class="sidebar">
+	
+            <ul>	
+               <li>
+                    <h4>Product Management</h4>
+                    <ul>
+                        <li><a href="#" onclick="displayAddProduct()">Add</a></li>
+                        <li><a href="#" onclick="displayUpdateProduct()">Update</a></li>
+                        <li><a href="#" onclick="displayDeleteProduct()">Delete</a></li>
+                    </ul>
+                </li>
+                  
+               
+                
+            </ul>
+		
+        </aside>
+    	<div class="clear"></div>
+    </div>
+    <footer>
+       
+        <div class="footer-bottom">
+            <p>&copy; BestDeal 2013. <a href="http://zypopwebtemplates.com/">www.bestdeal.com</a></p>
+         </div>
+    </footer>
+</div>
+</body>
+</html>

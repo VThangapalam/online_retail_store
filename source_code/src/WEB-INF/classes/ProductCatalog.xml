@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <product id="001" category="Tablet">
+        <image>http://localhost:8999/A2/images//img1.jpg</image>
+        <name>Fire HD 6 </name>
+        <brand>Amazon</brand>
+        <price>69</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </product>
+    <product id="002" category="Tablet">
+        <image>http://localhost:8999/A2/images//img2.jpg</image>
+        <name>Lenovo Ideapad Miix310</name>
+        <brand >Lenovo</brand>
+        <price>299</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </product>
+	 <product id="003" category="Tablet">
+        <image>http://localhost:8999/A2/images//img3.jpg</image>
+        <name>Apple iPad 2</name>
+        <brand >Apple</brand>
+        <price>199</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+     </product>
+	 	 <product id="004" category="Tablet">
+        <image>http://localhost:8999/A2/images//img4.jpg</image>
+        <name>Samsung Tablet 2</name>
+        <brand >Samsung</brand>
+        <price>322</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+     </product>
+	 	 <product id="005" category="Tablet">
+        <image>http://localhost:8999/A2/images//img5.jpg</image>
+        <name>Panasonic Tablet </name>
+        <brand >Panasonic</brand>
+        <price>457</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+     </product>
+	<product id="006" category="Smartphone">
+        <image>http://localhost:8999/A2/images//img6.jpg</image>
+        <name>HTC Desire 816</name>
+        <brand>HTC</brand>
+        <price>60</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>HTC Desire 816 Case</accessory>
+            <accessory>SUPERSHIELDZ- Anti-Bubble Screen Protector</accessory>
+        </accessories>
+    </product>
+    <product id="007" category="Smartphone">
+        <image>http://localhost:8999/A2/images//img7.jpg</image>
+        <name>Moto G (4th Generation)</name>
+        <brand >Motorola</brand>
+        <price>199</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Moto G 4th Generation Screen Protector</accessory>
+            <accessory>Moto G4 / G4 Plus Case</accessory>
+        </accessories>
+     </product>
+	 <product id="008" category="Smartphone">
+        <image>http://localhost:8999/A2/images//img8.jpg</image>
+        <name>Apple - iPhone 7</name>
+        <brand >Apple</brand>
+        <price>699</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory> ZAGG - Glass+ Screen Protector for Apple iPhone 7 Plus</accessory>
+            <accessory>OtterBox - Defender Series Case for Apple® iPhone® 7 Plus - Black</accessory>
+        </accessories>
+     </product>
+		 <product id="009" category="Smartphone">
+        <image>http://localhost:8999/A2/images//img9.jpg</image>
+        <name>Samsung - Galaxy S7 edge</name>
+        <brand >Samsung</brand>
+        <price>799</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>ZAGG - InvisibleShield HD Screen Protector for Samsung Galaxy S7 edge</accessory>
+            <accessory>Speck - CandyShell Clear Case for Samsung Galaxy S7 edge Cell Phones - Clear</accessory>
+        </accessories>
+    </product>
+    <product id="010" category="Smartphone">
+        <image>http://localhost:8999/A2/images//img10.jpg</image>
+        <name>Sony - XPERIA XA 4G LTE with 16GB Memory Cell Phone</name>
+        <brand >Sony</brand>
+        <price>249</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+    <product id="011" category="Laptop">
+        <image>http://localhost:8999/A2/images//img11.jpg</image>
+        <name>Macbook Air</name>
+        <brand >Apple</brand>
+        <price>1476</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	    <product id="012" category="Laptop">
+        <image>http://localhost:8999/A2/images//img12.jpg</image>
+        <name>Samsung T778</name>
+        <brand >Samsung</brand>
+        <price>578</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	  <product id="013" category="Laptop">
+        <image>http://localhost:8999/A2/images//img13.jpg</image>
+        <name>Dell 7314 2 in 1 </name>
+        <brand >Dell</brand>
+        <price>760</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+  <product id="014" category="Laptop">
+        <image>http://localhost:8999/A2/images//img14.jpg</image>
+        <name>Sony VAIO</name>
+        <brand >Sony</brand>
+        <price>578</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	 <product id="015" category="Laptop">
+        <image>http://localhost:8999/A2/images//img15.jpg</image>
+        <name>Lenovo Yoga</name>
+        <brand >Lenovo</brand>
+        <price>743</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	<product id="016" category="TV">
+        <image>http://localhost:8999/A2/images//img16.jpg</image>
+        <name>Panasonic HD 456</name>
+        <brand >Panasonic</brand>
+        <price>4300</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+		 <product id="017" category="TV">
+        <image>http://localhost:8999/A2/images//img17.jpg</image>
+        <name>Samsung LCD 788</name>
+        <brand >Samsung</brand>
+        <price>2817</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	   
+		 <product id="018" category="TV">
+        <image>http://localhost:8999/A2/images//img18.jpg</image>
+        <name>Toshiba 556</name>
+        <brand >Toshiba</brand>
+        <price>3465</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	  
+		 <product id="019" category="TV">
+        <image>http://localhost:8999/A2/images//img19.jpg</image>
+        <name>Oninda Air</name>
+        <brand >Onida</brand>
+        <price>1566</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	  
+		 <product id="020" category="TV">
+        <image>http://localhost:8999/A2/images//img20.jpg</image>
+        <name>Sony LED Samrt</name>
+        <brand >Sony</brand>
+        <price>2678</price>
+		<manufacturer_rebate>yes</manufacturer_rebate>
+        <accessories>
+            <accessory>Google - Chromecast - Black</accessory>
+            <accessory>Otter Sony Xperia XA Case</accessory>
+        </accessories>
+    </product>
+	
+	
+	
+	
+`</ProductCatalog>

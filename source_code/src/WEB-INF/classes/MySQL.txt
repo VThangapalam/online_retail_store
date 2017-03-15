@@ -1,0 +1,63 @@
+import java.sql.*;
+public class MySQLDataStoreUtilities{
+
+
+static Connection conn = null;
+static Statement stmt = null;
+
+public static void createDatabaseandTables()
+{
+	
+	
+	try {
+		Class.forName("com.mysql.jdbc.Driver");
+         // Step 1: Allocate a database Connection object
+         conn = DriverManager.getConnection(
+            "jdbc:mysql://localhost:3306", "root", "root"); // <== Check!
+            // database-URL(hostname, port, default database), username, password
+ 
+      System.out.println("Creating database...");
+      stmt = conn.createStatement();
+      
+      String sql = "CREATE DATABASE IF NOT EXISTS BestDealDB;";
+      stmt.executeUpdate(sql);
+      System.out.println("Database created successfully...");
+	  
+	   System.out.println("Creating users table");
+	  String usersql ="create table bestdealdb.Users(username varchar(50),passwrd varchar(50))";
+	  System.out.println("usersql "+usersql);
+stmt.executeUpdate(usersql);
+
+System.out.println("User table created successfully...");
+System.out.println("Creating order table");
+String ordersql ="create table bestdealdb.Orders("+
+"orderid varchar(50),"+
+"username varchar(50),"+
+"address varchar(100),"+
+"total int(40),"+
+"creditcard varchar(100))";
+stmt.executeUpdate(ordersql);
+System.out.println("order "+ordersql);
+System.out.println("Order table created successfully...");
+
+System.out.println("Creating item order table");
+String itemsql ="create table bestdealdb.OrderItems("+
+"orderid varchar(50),"+
+"itemid varchar(50),"+
+"itemname varchar(50),"+
+"quantity int(20))";
+stmt.executeUpdate(itemsql);
+System.out.println("item "+itemsql);
+System.out.println("Item table created successfully...");
+
+         
+	 
+	}
+	catch(Exception e) {
+		System.out.println("exception "+e.getMessage());
+	}
+}
+
+
+
+}

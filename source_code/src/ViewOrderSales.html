@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BestDeal</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1><a href="/">Best<span>Deal</span></a></h1>
+        <h2>Get the best products for the best price</h2>
+    </header>
+    <nav>
+        <ul>
+            <li class="start selected"><a href="sales.html">Home</a></li>  
+            <li class="end"><a href="contact.html">Contact</a></li>
+            <li class="end"><a href="ViewOrderSales.html">View Order</a></li>
+            <li class="search" style="color:black;"> 
+                Search site
+                    <ul>
+                        <li class="text">
+                            <form method="get" class="searchform" action="#" >
+                                <p>
+                                    <input type="text" size="32" value="" name="s" class="s" />
+                                    
+                                </p>
+                            </form> 
+                        </li>
+                    </ul>
+            </li>
+            <div style="float:right">
+            <li class="username" ><a href="account.html" style="color:black;" id="username"><b>SalesManager</b></a></li>
+           
+            </div>
+        </ul>
+            
+    </nav>
+
+    
+
+    <div id="body" style="min-height:500px">
+<div id="vieworderform" style="text-align: center;padding-top:50px">
+<form method="post" action="http://localhost:8999/A2/viewordersales">
+        <input type="text" name="orderid" placeholder="Order Number"> </br>
+        <button type="submit">View Order</button><br>
+
+
+        </ul>
+        </form>
+</div>
+
+
+    </div>
+    <footer>
+       
+        <div class="footer-bottom">
+            <p>&copy; BestDeal 2013. <a href="http://zypopwebtemplates.com/">www.bestdeal.com</a></p>
+         </div>
+    </footer>
+</div>
+</body>
+<script  type="text/javascript">
+
+</script>
+</html>
